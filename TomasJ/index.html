@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>MyFirstWebpage
+    </title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <style>
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+        height: 215px;
+        text-align: center;
+      }
+      
+      .row.content {
+        height: 895px}
+      
+      .sidenav {
+        padding-top: 20px;
+        background-color:coral;
+        height: 100%;
+      }
+      
+      footer {
+        background-color:black;
+        color:white;
+        padding: 15px;
+      }
+      
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 14px;
+        }
+        .row.content {
+          height:auto;
+        }
+      }
+      .orange-text
+      {
+        color:#FFA500
+      }
+      .maindesc
+      {
+        padding: 60px 0 70px;
+      }
+      div {
+        display:block;
+      }
+      .content {
+        position:relative;
+        text-align: justify;
+        background-color:black;
+        min-height: 400px;
+      }
+      body {
+        font-family: "Titillium Web", Arial, sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        color: #646464;
+        background-color: #fff;
+      }
+      .maindesc-row {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin: 0 0 60px;
+      }
+      .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      html {
+        font-family: sans-serif;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      ul {
+        display:inline-block;
+        list-style:none; 
+      }
+      .navbar-inverse {
+        position: relative;
+    padding: 5px 0 4px;
+    background: url(https://bitcoin.org/img/hero/overview-bg.svg?1528322191) top no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 1;
+}
+footer#footer {
+    background-image: url(https://bitcoin.org/img/hero/overview-bg.svg?1528322191);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 5px;
+    height: 200px;
+    width: 1903px;
+}
+.maindesc-text {
+    max-width: 67%;
+    margin: 0 0 90px;
+    font-size: 125%;
+    text-align: left;
+    color: white;
+}
+.btn-bright {
+    background: #FF9500;
+    color: #fff;
+}
+.donate-btn {
+    width: 90px;
+    height: 35px;
+    margin-left: 30px;
+    padding: 7px 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 1px;
+}
+
+a {
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+    background:#FF9500 ;
+  }
+
+  html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+    </style>
+          </head>
+          <body>
+            <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/"></a>
+                  <div class="bitcoin-image">
+                    <a class="logo" href="index.html">
+                      <img src="https://bitcoin.org/img/icons/logotop.svg?1621091491" height=130px width=150px alt="Bitcoin">
+                      </a>
+                    </div>
+                  </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav" id="Navbar">
+                    <li>
+                      <a href="how_it_works.html" style="color:black">How Bitcoin Works?
+              </a>
+                    </li>
+                    <li>
+                      <a href="live_chart.html" style="color:black">Live Chart
+              </a>
+                    </li>
+                    <li>
+                      <a href="FAQ.html" style="color:black">FAQ
+              </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div class="container-fluid text-center">
+              <div class="row content">
+                <div class="col-sm-12 text-center">
+                  <h1 class="orange-text">Get started with Bitcoin
+          </h1>
+                  <div class="maindesc">
+                    <div style="text-align: left;" class="container">
+                      <div class="row maindesc-row">
+                        <div>
+                          <p class="maindesc-text">Bitcoin uses peer-to-peer technology to operate with no central authority or banks, managing transactions and the issuing of bitcoins is carried out collectively by the network. 
+                    
+                            <b>Bitcoin is open-source, its design is public, nobody owns or controls Bitcoin and everyone can take part</b>. Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.
+                  
+                          </p>
+                          <br>
+                            <br>
+                              <br>
+                                <ul class="mainlist">
+                                  <li class="mainlist-item">
+                                    <img src="https://bitcoin.org/img/icons/main_ico_instant.svg?1620263532" alt="Icon">
+                                      <p>Fast peer-to-peer transactions
+                      </p>
+                                    </li>
+                                    <li class="mainlist-item">
+                                      <img src="https://bitcoin.org/img/icons/main_ico_worldwide.svg?1620263532" alt="Icon">
+                                        <p>Worldwide payments
+                      </p>
+                                      </li>
+                                      <li class="mainlist-item">
+                                        <img src="https://bitcoin.org/img/icons/main_ico_lowfee.svg?1620263532" alt="Icon">
+                                          <p>Low processing fees
+                      </p>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <img class="maindesc-img" src="https://bitcoin.org/img/home/bitcoin-img.svg?1620263532" alt="Bitcoin image">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <footer class="container-fluid text-center" id="footer">
+                            <span class="footer-title">Support Bitcoin:</span>
+                            <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+                            <p class="donate-text">
+                              <br>
+                                <a class="donate-link" href="#" target="_blank">3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd</a>
+                              </p>
+                            </footer>
+                          </body>
+                        </html>
+
